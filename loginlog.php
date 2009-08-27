@@ -3,7 +3,7 @@
 Plugin Name: Login Logger
 Plugin URI:
 Description: Logs the most recent successful login for each user, as well as all unsuccessful logins
-Version: 1.2
+Version: 1.2.1
 Author: Stephen Merriman
 Author URI: http://www.cre8d-design.com
 

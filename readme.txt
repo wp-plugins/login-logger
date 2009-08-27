@@ -3,7 +3,7 @@ Contributors: smerriman
 Tags: login, log
 Requires at least: 2.5
 Tested up to: 2.8.4
-Stable tag: 1.2
+Stable tag: 1.2.1
 
 Logs the most recent successful login for each user, as well as all unsuccessful logins.
 
