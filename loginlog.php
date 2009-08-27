@@ -60,7 +60,7 @@ function loginlog_loginsuccess($user_login) {
 function loginlog_users()
 {
 	global $wp_version;
-	add_submenu_page('users.php','Login logs','Login logs',8,'loginlog/manage.php');
+	add_submenu_page('users.php','Login logs','Login logs',8,'login-logger/manage.php');
 }
 function loginlog_active() {
 	global $user_login, $wpdb;
@@ -71,10 +71,10 @@ function loginlog_active() {
 
 global $wp_version;
 
-add_action('wp_login_failed','loginlog_loginfailed',10,1);
-add_action('wp_login','loginlog_loginsuccess',10,1);
+add_action('wp_login_failed','login-logger_loginfailed',10,1);
+add_action('wp_login','login-logger_loginsuccess',10,1);
 
 add_action('admin_menu','loginlog_users');
-add_action('activate_loginlog/loginlog.php','loginlog_install');
-add_action('init','loginlog_active');
+add_action('activate_login-logger/loginlog.php','loginlog_install');
+add_action('init','login-logger_active');
 ?>

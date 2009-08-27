@@ -38,7 +38,7 @@
 	}
 ?>
 	</table>
-	<form method="post" action="<?php bloginfo('wpurl') ?>/wp-admin/users.php?page=loginlog/manage.php">
+	<form method="post" action="<?php bloginfo('wpurl') ?>/wp-admin/users.php?page=login-logger/manage.php">
 	<p class="submit">
 		<input type="hidden" name="loginlog_clear" value="true"/>
 		<input type="submit" name="loginlog_submit" value="Clear failed logins"/>

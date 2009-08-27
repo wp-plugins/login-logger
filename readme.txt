@@ -13,7 +13,7 @@ Logs the most recent successful login for each user, as well as all unsuccessful
 
 == Installation ==
 
-1. Upload the login-log folder to your /wp-content/plugins/ directory
+1. Upload the login-logger folder to your /wp-content/plugins/ directory
 2. Activate the plugin
 
 == Frequently Asked Questions ==
